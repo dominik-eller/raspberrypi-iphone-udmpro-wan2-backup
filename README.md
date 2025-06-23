@@ -8,7 +8,7 @@ Dieses Repository enthält ein Shell-Skript zur Einrichtung eines Raspberry Pi (
 
 - Raspberry Pi (getestet: Model 1 B)
 - Raspberry Pi OS Bookworm Lite (frisch geflasht)
-- iPhone mit aktivem USB-Hotspot (Bildschirm während der Nutzung offen lassen)
+- iPhone mit aktivem USB-Hotspot (Bildschirm während der Einrichtung offen lassen)
 - Original Lightning-Datenkabel (kein reines Ladekabel!)
 - Ethernetverbindung vom Pi zur UDM Pro (WAN2)
 - SSH-Zugriff auf den Pi während der Einrichtung (z. B. über Port 3 am UDM Pro)
@@ -47,8 +47,8 @@ Das Skript ist so aufgebaut, dass `eth0` zunächst über DHCP läuft, um eine st
 6. Repository klonen und Skript ausführen:
 
 ```bash
-git clone https://github.com/DEIN-BENUTZERNAME/raspberrypi-udmpro-usbwan.git
-cd raspberrypi-udmpro-usbwan
+git clone https://github.com/dominik-eller/raspberrypi-iphone-udmpro-wan2-backup.git
+cd raspberrypi-iphone-udmpro-wan2-backup
 chmod +x setup-udm-usb.sh
 sudo ./setup-udm-usb.sh
 ```
